@@ -12,6 +12,9 @@ namespace SPAutoma
         public void ValidateTextwithPath2(object element, String text)
         {
             Assert.IsTrue(element.ToString() != null && element.ToString().Contains(text));
+            //comments first
+            // second line added
+            //third line added
         }
         public void ValidateNotNull(object element)
         {
